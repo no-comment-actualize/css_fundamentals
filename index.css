@@ -1,0 +1,94 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #444;
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+header h1, footer {
+  font-family: 'Press Start 2P';
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  color: #040;
+}
+
+#header-title {
+  color: #0b0;
+}
+
+.column-section {
+  width: 280px;
+  height: 500px;
+  overflow: scroll;
+  float: left;
+  background-color: #272822;
+}
+
+.column-section h2 {
+  font-size: 5em;
+  color: white;
+  line-height: 0.6em;
+}
+
+#what-is-pp p {
+  color: #B92659;
+}
+
+#why-do-pp p {
+  color: #6AC62E;
+}
+
+#how-to-pp p {
+  color: #66D9EF;
+}
+
+.column-section, header, #reflection, footer {
+  padding: 10px;
+  margin: 10px;
+}
+
+#reflection {
+  background-color: #121212;
+  color: #888;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  color: #040;
+}
+
+footer a {
+  color: #0b0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: purple;
+}
+
+@media (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 1.1em;
+  }
+  
+  .column-section {
+    width: inherit;
+    float: none;
+  }
+  
+}
